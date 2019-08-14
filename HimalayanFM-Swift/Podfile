@@ -1,0 +1,23 @@
+# Uncomment the next line to define a global platform for your project
+ platform :ios, '9.0'
+# 忽略引入库的所有警告
+inhibit_all_warnings!
+
+target 'HimalayanFM-Swift' do
+  # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'SnapKit'
+  pod 'SwiftyJSON'
+  # 图片加载
+  pod 'Kingfisher'
+# 基于 Alamofire 的更高网络请求封装抽象层
+  pod 'Moya'
+  pod 'ReachabilitySwift'
+  
+  pod 'RTRootNavigationController'
+  pod 'MBProgressHUD'
+  pod 'SVProgressHUD'
+  pod 'MJRefresh'
+
+end

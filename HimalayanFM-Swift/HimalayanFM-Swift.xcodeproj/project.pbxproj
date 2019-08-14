@@ -1,0 +1,830 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		678E816E23028F930048D7E0 /* XYBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E816D23028F930048D7E0 /* XYBaseViewController.swift */; };
+		678E8173230290D40048D7E0 /* XYBaseTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E8172230290D40048D7E0 /* XYBaseTabBarViewController.swift */; };
+		678E81752302928A0048D7E0 /* XYBaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E81742302928A0048D7E0 /* XYBaseNavigationController.swift */; };
+		678E8177230298040048D7E0 /* XYListenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E8176230298040048D7E0 /* XYListenViewController.swift */; };
+		678E8179230298110048D7E0 /* XYFindViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E8178230298110048D7E0 /* XYFindViewController.swift */; };
+		678E817B230298190048D7E0 /* XYMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E817A230298190048D7E0 /* XYMineViewController.swift */; };
+		678E817D230298250048D7E0 /* XYPlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E817C230298250048D7E0 /* XYPlayViewController.swift */; };
+		678E817F230299670048D7E0 /* XYHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E817E230299670048D7E0 /* XYHomeViewController.swift */; };
+		678E81832303D2520048D7E0 /* UConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E81822303D2520048D7E0 /* UConstants.swift */; };
+		678E81862303FCCB0048D7E0 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678E81852303FCCB0048D7E0 /* Common.swift */; };
+		67AC846422F1249500FAB071 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC846322F1249400FAB071 /* AppDelegate.swift */; };
+		67AC846B22F1249600FAB071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67AC846A22F1249600FAB071 /* Assets.xcassets */; };
+		67AC847922F1249600FAB071 /* HimalayanFM_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC847822F1249600FAB071 /* HimalayanFM_SwiftTests.swift */; };
+		67AC848422F1249600FAB071 /* HimalayanFM_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67AC848322F1249600FAB071 /* HimalayanFM_SwiftUITests.swift */; };
+		E82F4587E8B6A6DA14A64F91 /* Pods_HimalayanFM_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C236874804AAEA5306E36ED9 /* Pods_HimalayanFM_Swift.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		67AC847522F1249600FAB071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67AC845822F1249400FAB071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67AC845F22F1249400FAB071;
+			remoteInfo = "HimalayanFM-Swift";
+		};
+		67AC848022F1249600FAB071 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67AC845822F1249400FAB071 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 67AC845F22F1249400FAB071;
+			remoteInfo = "HimalayanFM-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C16E46E58F25E96F150A511 /* Pods-HimalayanFM-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimalayanFM-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-HimalayanFM-Swift/Pods-HimalayanFM-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		35EF6CC46A86FDF7FE40D77F /* Pods_HimalayanFM_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimalayanFM_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		678E816D23028F930048D7E0 /* XYBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBaseViewController.swift; sourceTree = "<group>"; };
+		678E8172230290D40048D7E0 /* XYBaseTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBaseTabBarViewController.swift; sourceTree = "<group>"; };
+		678E81742302928A0048D7E0 /* XYBaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYBaseNavigationController.swift; sourceTree = "<group>"; };
+		678E8176230298040048D7E0 /* XYListenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYListenViewController.swift; sourceTree = "<group>"; };
+		678E8178230298110048D7E0 /* XYFindViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYFindViewController.swift; sourceTree = "<group>"; };
+		678E817A230298190048D7E0 /* XYMineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYMineViewController.swift; sourceTree = "<group>"; };
+		678E817C230298250048D7E0 /* XYPlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYPlayViewController.swift; sourceTree = "<group>"; };
+		678E817E230299670048D7E0 /* XYHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYHomeViewController.swift; sourceTree = "<group>"; };
+		678E81822303D2520048D7E0 /* UConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UConstants.swift; sourceTree = "<group>"; };
+		678E81842303D2960048D7E0 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		678E81852303FCCB0048D7E0 /* Common.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		67AC846022F1249400FAB071 /* HimalayanFM-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HimalayanFM-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AC846322F1249400FAB071 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		67AC846A22F1249600FAB071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67AC846F22F1249600FAB071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67AC847422F1249600FAB071 /* HimalayanFM-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HimalayanFM-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AC847822F1249600FAB071 /* HimalayanFM_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimalayanFM_SwiftTests.swift; sourceTree = "<group>"; };
+		67AC847A22F1249600FAB071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67AC847F22F1249600FAB071 /* HimalayanFM-SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HimalayanFM-SwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67AC848322F1249600FAB071 /* HimalayanFM_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HimalayanFM_SwiftUITests.swift; sourceTree = "<group>"; };
+		67AC848522F1249600FAB071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C236874804AAEA5306E36ED9 /* Pods_HimalayanFM_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimalayanFM_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F8791EC864D4D2CD826541 /* Pods_HimalayanFM_SwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HimalayanFM_SwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC69A3EBAB6D08B57D2F5EAF /* Pods-HimalayanFM-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HimalayanFM-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HimalayanFM-Swift/Pods-HimalayanFM-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67AC845D22F1249400FAB071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82F4587E8B6A6DA14A64F91 /* Pods_HimalayanFM_Swift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AC847122F1249600FAB071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AC847C22F1249600FAB071 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		678E815F23028D300048D7E0 /* Classess */ = {
+			isa = PBXGroup;
+			children = (
+				678E816623028DEE0048D7E0 /* AppDelegate */,
+				678E816023028DED0048D7E0 /* Category */,
+				678E816123028DED0048D7E0 /* Common */,
+				678E816323028DED0048D7E0 /* Grneral */,
+				678E816723028DEE0048D7E0 /* Helpers */,
+				678E816223028DED0048D7E0 /* Resources */,
+				678E816523028DEE0048D7E0 /* Sections */,
+				678E816423028DEE0048D7E0 /* Vender */,
+			);
+			path = Classess;
+			sourceTree = "<group>";
+		};
+		678E816023028DED0048D7E0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		678E816123028DED0048D7E0 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				678E81822303D2520048D7E0 /* UConstants.swift */,
+				678E81852303FCCB0048D7E0 /* Common.swift */,
+				678E81842303D2960048D7E0 /* PrefixHeader.pch */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		678E816223028DED0048D7E0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		678E816323028DED0048D7E0 /* Grneral */ = {
+			isa = PBXGroup;
+			children = (
+				678E816F23028FA50048D7E0 /* Base */,
+			);
+			path = Grneral;
+			sourceTree = "<group>";
+		};
+		678E816423028DEE0048D7E0 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		678E816523028DEE0048D7E0 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				678E816C23028EA40048D7E0 /* Play(播放) */,
+				678E816B23028E950048D7E0 /* Mine(我的) */,
+				678E816A23028E8A0048D7E0 /* Find(发现) */,
+				678E816923028E5D0048D7E0 /* Listen(我听) */,
+				678E816823028E570048D7E0 /* Home(首页) */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		678E816623028DEE0048D7E0 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				67AC846322F1249400FAB071 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		678E816723028DEE0048D7E0 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		678E816823028E570048D7E0 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+				678E817E230299670048D7E0 /* XYHomeViewController.swift */,
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		678E816923028E5D0048D7E0 /* Listen(我听) */ = {
+			isa = PBXGroup;
+			children = (
+				678E8176230298040048D7E0 /* XYListenViewController.swift */,
+			);
+			path = "Listen(我听)";
+			sourceTree = "<group>";
+		};
+		678E816A23028E8A0048D7E0 /* Find(发现) */ = {
+			isa = PBXGroup;
+			children = (
+				678E8178230298110048D7E0 /* XYFindViewController.swift */,
+			);
+			path = "Find(发现)";
+			sourceTree = "<group>";
+		};
+		678E816B23028E950048D7E0 /* Mine(我的) */ = {
+			isa = PBXGroup;
+			children = (
+				678E817A230298190048D7E0 /* XYMineViewController.swift */,
+			);
+			path = "Mine(我的)";
+			sourceTree = "<group>";
+		};
+		678E816C23028EA40048D7E0 /* Play(播放) */ = {
+			isa = PBXGroup;
+			children = (
+				678E817C230298250048D7E0 /* XYPlayViewController.swift */,
+			);
+			path = "Play(播放)";
+			sourceTree = "<group>";
+		};
+		678E816F23028FA50048D7E0 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				678E816D23028F930048D7E0 /* XYBaseViewController.swift */,
+				678E8172230290D40048D7E0 /* XYBaseTabBarViewController.swift */,
+				678E81742302928A0048D7E0 /* XYBaseNavigationController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		67AC845722F1249400FAB071 = {
+			isa = PBXGroup;
+			children = (
+				678E815F23028D300048D7E0 /* Classess */,
+				67AC846222F1249400FAB071 /* HimalayanFM-Swift */,
+				67AC847722F1249600FAB071 /* HimalayanFM-SwiftTests */,
+				67AC848222F1249600FAB071 /* HimalayanFM-SwiftUITests */,
+				67AC846122F1249400FAB071 /* Products */,
+				EED2ACF6204A6C01CE465FF0 /* Pods */,
+				7C9A6838E1418297B3E7C14C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		67AC846122F1249400FAB071 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67AC846022F1249400FAB071 /* HimalayanFM-Swift.app */,
+				67AC847422F1249600FAB071 /* HimalayanFM-SwiftTests.xctest */,
+				67AC847F22F1249600FAB071 /* HimalayanFM-SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67AC846222F1249400FAB071 /* HimalayanFM-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				67AC846A22F1249600FAB071 /* Assets.xcassets */,
+				67AC846F22F1249600FAB071 /* Info.plist */,
+			);
+			path = "HimalayanFM-Swift";
+			sourceTree = "<group>";
+		};
+		67AC847722F1249600FAB071 /* HimalayanFM-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				67AC847822F1249600FAB071 /* HimalayanFM_SwiftTests.swift */,
+				67AC847A22F1249600FAB071 /* Info.plist */,
+			);
+			path = "HimalayanFM-SwiftTests";
+			sourceTree = "<group>";
+		};
+		67AC848222F1249600FAB071 /* HimalayanFM-SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				67AC848322F1249600FAB071 /* HimalayanFM_SwiftUITests.swift */,
+				67AC848522F1249600FAB071 /* Info.plist */,
+			);
+			path = "HimalayanFM-SwiftUITests";
+			sourceTree = "<group>";
+		};
+		7C9A6838E1418297B3E7C14C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C236874804AAEA5306E36ED9 /* Pods_HimalayanFM_Swift.framework */,
+				35EF6CC46A86FDF7FE40D77F /* Pods_HimalayanFM_SwiftTests.framework */,
+				D9F8791EC864D4D2CD826541 /* Pods_HimalayanFM_SwiftUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EED2ACF6204A6C01CE465FF0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DC69A3EBAB6D08B57D2F5EAF /* Pods-HimalayanFM-Swift.debug.xcconfig */,
+				0C16E46E58F25E96F150A511 /* Pods-HimalayanFM-Swift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67AC845F22F1249400FAB071 /* HimalayanFM-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AC848822F1249600FAB071 /* Build configuration list for PBXNativeTarget "HimalayanFM-Swift" */;
+			buildPhases = (
+				CE00CC4828CB748D158EC63F /* [CP] Check Pods Manifest.lock */,
+				67AC845C22F1249400FAB071 /* Sources */,
+				67AC845D22F1249400FAB071 /* Frameworks */,
+				67AC845E22F1249400FAB071 /* Resources */,
+				00E16B69CA8EBAD21F95BEE3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HimalayanFM-Swift";
+			productName = "HimalayanFM-Swift";
+			productReference = 67AC846022F1249400FAB071 /* HimalayanFM-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		67AC847322F1249600FAB071 /* HimalayanFM-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AC848B22F1249600FAB071 /* Build configuration list for PBXNativeTarget "HimalayanFM-SwiftTests" */;
+			buildPhases = (
+				67AC847022F1249600FAB071 /* Sources */,
+				67AC847122F1249600FAB071 /* Frameworks */,
+				67AC847222F1249600FAB071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67AC847622F1249600FAB071 /* PBXTargetDependency */,
+			);
+			name = "HimalayanFM-SwiftTests";
+			productName = "HimalayanFM-SwiftTests";
+			productReference = 67AC847422F1249600FAB071 /* HimalayanFM-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		67AC847E22F1249600FAB071 /* HimalayanFM-SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67AC848E22F1249600FAB071 /* Build configuration list for PBXNativeTarget "HimalayanFM-SwiftUITests" */;
+			buildPhases = (
+				67AC847B22F1249600FAB071 /* Sources */,
+				67AC847C22F1249600FAB071 /* Frameworks */,
+				67AC847D22F1249600FAB071 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				67AC848122F1249600FAB071 /* PBXTargetDependency */,
+			);
+			name = "HimalayanFM-SwiftUITests";
+			productName = "HimalayanFM-SwiftUITests";
+			productReference = 67AC847F22F1249600FAB071 /* HimalayanFM-SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67AC845822F1249400FAB071 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = XY;
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "叶炯";
+				TargetAttributes = {
+					67AC845F22F1249400FAB071 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					67AC847322F1249600FAB071 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 67AC845F22F1249400FAB071;
+					};
+					67AC847E22F1249600FAB071 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 67AC845F22F1249400FAB071;
+					};
+				};
+			};
+			buildConfigurationList = 67AC845B22F1249400FAB071 /* Build configuration list for PBXProject "HimalayanFM-Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67AC845722F1249400FAB071;
+			productRefGroup = 67AC846122F1249400FAB071 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67AC845F22F1249400FAB071 /* HimalayanFM-Swift */,
+				67AC847322F1249600FAB071 /* HimalayanFM-SwiftTests */,
+				67AC847E22F1249600FAB071 /* HimalayanFM-SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67AC845E22F1249400FAB071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AC846B22F1249600FAB071 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AC847222F1249600FAB071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AC847D22F1249600FAB071 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00E16B69CA8EBAD21F95BEE3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HimalayanFM-Swift/Pods-HimalayanFM-Swift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
+				"${BUILT_PRODUCTS_DIR}/RTRootNavigationController/RTRootNavigationController.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Moya.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RTRootNavigationController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HimalayanFM-Swift/Pods-HimalayanFM-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CE00CC4828CB748D158EC63F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HimalayanFM-Swift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67AC845C22F1249400FAB071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				678E8179230298110048D7E0 /* XYFindViewController.swift in Sources */,
+				678E81832303D2520048D7E0 /* UConstants.swift in Sources */,
+				678E8177230298040048D7E0 /* XYListenViewController.swift in Sources */,
+				678E8173230290D40048D7E0 /* XYBaseTabBarViewController.swift in Sources */,
+				678E81862303FCCB0048D7E0 /* Common.swift in Sources */,
+				678E817D230298250048D7E0 /* XYPlayViewController.swift in Sources */,
+				678E81752302928A0048D7E0 /* XYBaseNavigationController.swift in Sources */,
+				678E816E23028F930048D7E0 /* XYBaseViewController.swift in Sources */,
+				678E817F230299670048D7E0 /* XYHomeViewController.swift in Sources */,
+				678E817B230298190048D7E0 /* XYMineViewController.swift in Sources */,
+				67AC846422F1249500FAB071 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AC847022F1249600FAB071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AC847922F1249600FAB071 /* HimalayanFM_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67AC847B22F1249600FAB071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67AC848422F1249600FAB071 /* HimalayanFM_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		67AC847622F1249600FAB071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67AC845F22F1249400FAB071 /* HimalayanFM-Swift */;
+			targetProxy = 67AC847522F1249600FAB071 /* PBXContainerItemProxy */;
+		};
+		67AC848122F1249600FAB071 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 67AC845F22F1249400FAB071 /* HimalayanFM-Swift */;
+			targetProxy = 67AC848022F1249600FAB071 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67AC848622F1249600FAB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		67AC848722F1249600FAB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67AC848922F1249600FAB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC69A3EBAB6D08B57D2F5EAF /* Pods-HimalayanFM-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J674V9K2Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Classess/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = "HimalayanFM-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XY.HimalayanFM-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67AC848A22F1249600FAB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C16E46E58F25E96F150A511 /* Pods-HimalayanFM-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J674V9K2Y;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Classess/Common/PrefixHeader.pch;
+				INFOPLIST_FILE = "HimalayanFM-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XY.HimalayanFM-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		67AC848C22F1249600FAB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J674V9K2Y;
+				INFOPLIST_FILE = "HimalayanFM-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XY.HimalayanFM-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HimalayanFM-Swift.app/HimalayanFM-Swift";
+			};
+			name = Debug;
+		};
+		67AC848D22F1249600FAB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J674V9K2Y;
+				INFOPLIST_FILE = "HimalayanFM-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XY.HimalayanFM-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HimalayanFM-Swift.app/HimalayanFM-Swift";
+			};
+			name = Release;
+		};
+		67AC848F22F1249600FAB071 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J674V9K2Y;
+				INFOPLIST_FILE = "HimalayanFM-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XY.HimalayanFM-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HimalayanFM-Swift";
+			};
+			name = Debug;
+		};
+		67AC849022F1249600FAB071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4J674V9K2Y;
+				INFOPLIST_FILE = "HimalayanFM-SwiftUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "XY.HimalayanFM-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "HimalayanFM-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67AC845B22F1249400FAB071 /* Build configuration list for PBXProject "HimalayanFM-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AC848622F1249600FAB071 /* Debug */,
+				67AC848722F1249600FAB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AC848822F1249600FAB071 /* Build configuration list for PBXNativeTarget "HimalayanFM-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AC848922F1249600FAB071 /* Debug */,
+				67AC848A22F1249600FAB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AC848B22F1249600FAB071 /* Build configuration list for PBXNativeTarget "HimalayanFM-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AC848C22F1249600FAB071 /* Debug */,
+				67AC848D22F1249600FAB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67AC848E22F1249600FAB071 /* Build configuration list for PBXNativeTarget "HimalayanFM-SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67AC848F22F1249600FAB071 /* Debug */,
+				67AC849022F1249600FAB071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67AC845822F1249400FAB071 /* Project object */;
+}

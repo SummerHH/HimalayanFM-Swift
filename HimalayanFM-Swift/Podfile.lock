@@ -1,0 +1,60 @@
+PODS:
+  - Alamofire (4.8.2)
+  - Kingfisher (4.10.1)
+  - MBProgressHUD (1.1.0)
+  - MJRefresh (3.2.0)
+  - Moya (13.0.1):
+    - Moya/Core (= 13.0.1)
+  - Moya/Core (13.0.1):
+    - Alamofire (~> 4.1)
+    - Result (~> 4.1)
+  - ReachabilitySwift (4.3.1)
+  - Result (4.1.0)
+  - RTRootNavigationController (0.7.1):
+    - RTRootNavigationController/Core (= 0.7.1)
+  - RTRootNavigationController/Core (0.7.1)
+  - SnapKit (4.2.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Kingfisher
+  - MBProgressHUD
+  - MJRefresh
+  - Moya
+  - ReachabilitySwift
+  - RTRootNavigationController
+  - SnapKit
+  - SVProgressHUD
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Kingfisher
+    - MBProgressHUD
+    - MJRefresh
+    - Moya
+    - ReachabilitySwift
+    - Result
+    - RTRootNavigationController
+    - SnapKit
+    - SVProgressHUD
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MBProgressHUD: e7baa36a220447d8aeb12769bf0585582f3866d9
+  MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
+  Moya: f4a4b80ff2f8a4ffc208dfb31cd91636622fee6e
+  ReachabilitySwift: 4032e2f59586e11e3b0ebe15b167abdd587a388b
+  Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
+  RTRootNavigationController: afa6913402be26f8326f7f37fc1550aa67baddcc
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 4488dd78713e1cf03660f92e6b17b0d58b98963b
+
+COCOAPODS: 1.5.3
